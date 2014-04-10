@@ -32,10 +32,10 @@ import semanticMarkup.ling.learn.utility.StringUtility;
 import semanticMarkup.ling.learn.utility.WordFormUtility;
 
 public class DataHolder {
-	// all unique words in the input treatments
+	// All unique words in the input treatments
 	public Map<String, Integer> allWords;
 	
-	// words are singular nouns, boundary words, and modifiers
+	// Words are singular nouns, boundary words, and modifiers
 	private Set<String> BMSWords;
 	
 	// Data holders
