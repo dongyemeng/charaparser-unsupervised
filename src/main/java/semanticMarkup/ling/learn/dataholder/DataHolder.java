@@ -175,8 +175,7 @@ public class DataHolder {
 		return this.wordRoleTable;
 	}
 	
-	/** Add To Utilities **/
-	
+	/** Add To Utilities **/	
 	public void add2Holder(byte holderID, List<String> args){
 
 		if (holderID == DataHolder.DISCOUNTED) {
