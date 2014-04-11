@@ -882,34 +882,7 @@ public class Learner {
 		return sign;
 	}
 
-	/**
-	 * check if the lead has the head in the beginning of it
-	 * 
-	 * @param head
-	 * @param lead
-	 * @return true if it has, false if it does not have
-	 */
-	public boolean hasHead(List<String> head, List<String> lead) {
 
-		// null case
-		if (head == null || lead == null) {
-			return false;
-		}
-
-		int headSize = head.size();
-		int leadSize = lead.size();
-		if (headSize > leadSize) {
-			return false;
-		}
-
-		for (int i = 0; i < headSize; i++) {
-			if (!StringUtils.equals(head.get(i), lead.get(i))) {
-				return false;
-			}
-		}
-
-		return true;
-	}
 
 
 
@@ -2949,5 +2922,35 @@ public class Learner {
 	public static void main(String[] args) {
 		assertEquals("tagAllSentenceHelper", 1, 12);
 	}
+	
+	// Unused utility methods
+	/**
+	 * check if the lead has the head in the beginning of it
+	 * 
+	 * @param head
+	 * @param lead
+	 * @return true if it has, false if it does not have
+	 */
+	public boolean hasHead(List<String> head, List<String> lead) {
 
+		// null case
+		if (head == null || lead == null) {
+			return false;
+		}
+
+		int headSize = head.size();
+		int leadSize = lead.size();
+		if (headSize > leadSize) {
+			return false;
+		}
+
+		for (int i = 0; i < headSize; i++) {
+			if (!StringUtils.equals(head.get(i), lead.get(i))) {
+				return false;
+			}
+		}
+
+		return true;
+	}
+	
 }
