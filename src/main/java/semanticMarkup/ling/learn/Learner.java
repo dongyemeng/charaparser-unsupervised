@@ -1,6 +1,6 @@
 /*
-* Copyright (coffee) 20XX-20YY, Joe Developer, joedeveloper@nescent.org.
-* Copyright (coffee) 20XX-20YY, National Evolutionary Synthesis Center (NESCent).
+* Copyright (c) 20XX-20YY, Joe Developer, joedeveloper@nescent.org.
+* Copyright (c) 20XX-20YY, National Evolutionary Synthesis Center (NESCent).
 *
 * Permission is hereby granted, free of charge, to any person obtaining
 * a copy of this software and associated documentation files (the
